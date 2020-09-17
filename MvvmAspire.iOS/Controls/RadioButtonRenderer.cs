@@ -6,7 +6,7 @@ using Xamarin.Forms;
 
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(XamarinRadioButton), typeof(RadioButtonRenderer))]
+[assembly: ExportRenderer(typeof(XamarinRadioButton), typeof(MvvmAspire.Controls.RadioButtonRenderer))]
 
 namespace MvvmAspire.Controls
 {

@@ -12,9 +12,9 @@ using Android.Widget;
 using   MvvmAspire.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+using RadioButton = Android.Widget.RadioButton;
 
-
-[assembly: ExportRenderer(typeof(XamarinRadioButton), typeof(RadioButtonRenderer))]
+[assembly: ExportRenderer(typeof(XamarinRadioButton), typeof(MvvmAspire.Controls.RadioButtonRenderer))]
 namespace   MvvmAspire.Controls
 {
 
